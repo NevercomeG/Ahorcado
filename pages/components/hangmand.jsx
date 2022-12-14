@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { randomWord } from "./words.jsx";
+import randomWord from "../components/words.js";
 import Image from "next/image.js";
 import step0 from "../../public/assets/img/0.jpg";
 import step1 from "../../public/assets/img/1.jpg";
@@ -8,9 +8,6 @@ import step3 from "../../public/assets/img/3.jpg";
 import step4 from "../../public/assets/img/4.jpg";
 import step5 from "../../public/assets/img/5.jpg";
 import step6 from "../../public/assets/img/6.jpg";
-import Mycontext from "./context.js";
-import Idiom from "./idiom.jsx";
-import { useTranslations } from "next-intl";
 
 function Hangman(props) {
   const { maxWrong, images } = props;

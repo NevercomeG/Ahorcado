@@ -22,4 +22,4 @@ function randomWord() {
   ];
 }
 
-export { randomWord };
+export default randomWord;
