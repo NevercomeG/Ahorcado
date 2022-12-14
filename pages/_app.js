@@ -1,5 +1,5 @@
 import "../styles/globals.css";
-import "../styles/hangman.css";
+import "../styles/Hangman.css";
 import "bootstrap/dist/css/bootstrap.css";
 import Head from "next/head";
 import { NextIntlProvider } from "next-intl";
